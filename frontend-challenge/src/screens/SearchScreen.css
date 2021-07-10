@@ -1,0 +1,53 @@
+.main{
+    background: #fefaf6;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.searchBar{
+    margin-top: 1.5em;
+    width: 90%;
+    display: flex;
+    align-self: center;
+}
+.results{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.bookResult{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2% !important;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 10%;
+}
+.bookResultImage{
+    width: 10vh;
+    height: 15vh;
+}
+.bookResultTitle{
+    font-size: small;
+    font-weight: 600;
+    color: #6e6e6d;
+    text-align: left;
+}
+.bookResultAuthor{
+    font-size: x-small;
+    text-align: left;
+    color: #6e6e6d;
+    font-weight: bolder;
+
+}
+.goBackButton{
+    display: flex;
+}
+.goBackButtonIcon{
+    color: black;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.loadMoreButton{
+    margin-bottom: 20% !important;
+}

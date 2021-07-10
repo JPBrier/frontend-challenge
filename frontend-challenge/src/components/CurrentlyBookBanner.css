@@ -1,0 +1,66 @@
+.currentlyBookBanner{
+    width: 85%;
+    border: 1px solid #fefaf6;
+    background: #ecf2d7;
+    border-radius: 5px;
+    display: block;
+    height: 20% !important;
+    position: relative;
+    z-index: 10;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.currentlyBookInfo{
+    margin-top: 5%;
+    margin-left: 40%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.currentlyBookPreview{
+    display: block;
+    position: absolute;
+    z-index: 20;
+    
+}
+
+.currentlyBookImage{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    width: 5.5em;
+    height: 8em;
+}
+
+.currentlyBookTitle{
+    color: black;
+    font-size: large;
+    font-family: 'Prata', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.currentlyBookAuthor{
+    color: gray;
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.bookmarkIcon{
+    color: #a74bf4;
+    font-size: 1.3rem !important;
+}
+
+.currentlyBookNumbers{
+    color: black;
+    font-size: 70%;
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5%;
+}

@@ -1,0 +1,80 @@
+.main{
+    background: #fefaf6;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    width: 45%;
+    height: 50%;
+    margin-top: 5%;
+    border-radius: 5px;
+    margin-left: 25%;
+}
+.title{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    text-align: left;
+
+}
+.subtitle{
+    font-weight: 500;
+}
+.author{
+    font-size: normal;
+    color: #ff6978;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 1%;
+    font-weight: bolder;
+}
+.description {
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Nunito', sans-serif;
+    font-size: normal;
+    color: #838281;
+    margin-bottom: 30%;
+}
+.bookActions{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    position: fixed;
+    bottom: 0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.bookActionsIcons{
+    color: gray;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 3%;
+    display: flex;
+    align-self: center;
+    align-content: center;
+    margin-bottom: 5%;
+}
+.backButtonIcon{
+    color: black;
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.backButtonDiv{
+    display: flex;
+}

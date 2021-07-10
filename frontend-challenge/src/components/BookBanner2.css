@@ -1,0 +1,63 @@
+.bookBanner2{
+    height: 90%;
+    width: 100%;
+    margin-right: 5px;
+    border: 1px solid #fefaf6;
+    background: #451475;
+    border-radius: 5px;
+    display: flex;
+    align-self: center;
+}
+
+.bookInfo2{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bookPreview2{
+    display: flex;
+    justify-content: center;
+}
+
+.bookImage2{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 5px;
+    resize: both;
+}
+
+.bookTitle2{
+    color: white;
+    font-size: x-large;
+    font-family: 'Prata', serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.bookAuthor2{
+    color: white;
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5%;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.graphIcon2{
+    color: white;
+    font-size: 1.3rem !important;
+}
+
+.bookNumbers2{
+    color: white;
+    font-size: 70%;
+    display: flex;
+    align-items: center;
+    margin-top: 15%;
+    font-family: Roboto;
+    font-weight: lighter;
+}
